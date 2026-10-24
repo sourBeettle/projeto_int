@@ -1,3 +1,68 @@
 body{
-    
+    background-color: #F1F2F6;
+    color: #36322F;
+    font-family: "Roboto", sans-serif;
+}
+
+
+    #title{
+        z-index: 2;
+        font-family: "Changa One", sans-serif;
+        text-align: center;
+        font-size: 70px;
+        color: #070707;
+        text-shadow: 4px 4px 6px #919191;
+        transform: scale(1);
+        transition: transform 2.3s ease;
+        margin-top: 120px;
+    }
+
+        #title:hover{
+            transform: scale(1.6);
+            transition: transform 2.3s ease;
+            color: #720F33;
+            text-shadow: 4px 4px 6px #D2D1D6;
+            z-index: 2;
+        }
+
+
+
+#menu{
+    text-align: center;
+    padding: 10px;
+    background-color: #070707;
+    color: #F1F2F6;
+    font-size: 20px;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.roboto-uniquifier{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.changa-one-regular {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.changa-one-regular-italic {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.palette-mosaic-regular {
+  font-family: "Palette Mosaic", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
