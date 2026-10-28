@@ -10,6 +10,77 @@ b{
   font-weight: 800;
 }
 
+form{
+  margin: 10vh;
+  padding: 20px;
+
+  background-color: #faf8f8;
+  border: 2px solid black;
+  border-radius: 18px;
+  font-size: 20px;
+}
+
+label{
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  textarea
+  {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #070707;
+  border-radius: 4px;
+ }
+
+ input[type="radio"]{
+  margin-right: 5px;
+  padding: 20px;
+ }
+
+      input[type="text"]:hover,
+      input[type="email"]:hover,
+      input[type="date"]:hover,
+        textarea:hover {
+           border: 1px solid #ffb969;
+        }
+
+  textarea{
+    height: 100px;
+    resize: vertical;
+  }      
+
+  button{
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button:hover{
+    box-shadow: 5px 5px #cccccc;
+    font-size: 18px;
+  }
+
+h1{
+  text-align: center;
+}
+
+#formtext{
+  text-align: center;
+  font-size: 15px;
+}
+
 #title{
   z-index: 2;
   font-family: "Cormorant Garamond", serif;
@@ -51,7 +122,7 @@ b{
 
           #menu a:hover{
             transform: scale(1.2);
-            color: #aa7b46;
+            color: #ffb969;
           }
 
           #menu a:visited{
