@@ -1,31 +1,35 @@
 body{
     background-color: #F1F2F6;
     color: #36322F;
-    font-family: "Roboto", sans-serif;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+
 }
 
+b{
+  font-weight: 800;
+}
 
-    #title{
-        z-index: 2;
-        font-family: "Changa One", sans-serif;
-        text-align: center;
-        font-size: 55px;
+#title{
+  z-index: 2;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 55px;
+  color: #070707;
+  text-shadow: 4px 4px 4px #cccccc;
+  transform: scale(1);
+  transition: transform 1s ease;
+  margin-top: 120px;
+}
+
+    #title:hover{
+        transform: scale(1.6);
+        transition: transform 2s ease;
         color: #070707;
-        text-shadow: 4px 4px 6px #919191;
-        transform: scale(1);
-        transition: transform 2.3s ease;
-        margin-top: 120px;
-    }
-
-        #title:hover{
-            transform: scale(1.6);
-            transition: transform 2.3s ease;
-            color: #284b63;
-            text-shadow: 4px 4px 6px #D2D1D6;
-            z-index: 2;
-        }
-
-
+        text-shadow: 4px 4px 4px #cccccc;
+        z-index: 2;
+}
 
 #menu{
     text-align: center;
@@ -38,54 +42,96 @@ body{
     left: 0px;
     position: fixed;
     width: 100%;
-    font-family: "Changa One", sans-serif;
+    font-family: "Playfair Display", serif;
 }
 
-#menu a{
-  color: white;
-}
+          #menu a{
+            color: white;
+          }
 
-#menu a:hover{
-  transform: scale(1.2);
-  color: #284b63;
-}
+          #menu a:hover{
+            transform: scale(1.2);
+            color: #aa7b46;
+          }
 
-#menu a:visited{
-  font-size: 25px;
-  color: #3a6f92;
-}
+          #menu a:visited{
+            font-size: 25px;
+            color: #aa7b46;
+          }
 
 #description{
-    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
     font-size: 20px;
-    margin-top: 20px;
+    padding: 10px;
     color: #070707;
-    font-family: "Roboto", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+
+    border: 1px solid #070707;
+    width: 200px;
+
+    transform: scale(1);
+    transition: transform 1s ease;
 }
 
-.roboto-uniquifier{
-  font-family: "Roboto", sans-serif;
+    #description:hover{
+        transform: scale(1.2);
+        transition: transform 1s ease;
+    }
+
+.pai1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #070707;
+  width:auto;
+  height:auto;
+}
+
+.pai2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #070707;
+}
+
+
+
+
+.container{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.cormorant-garamond{
+  font-family: "Cormorant Garamond", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
-.changa-one-regular {
-  font-family: "Changa One", sans-serif;
-  font-weight: 400;
+
+  .playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 40px;
+}
+
+.outfit{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
 }
 
-.changa-one-regular-italic {
-  font-family: "Changa One", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.palette-mosaic-regular {
-  font-family: "Palette Mosaic", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
