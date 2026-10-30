@@ -6,8 +6,6 @@ body{
 
 }
 
-
-
 b{
   font-weight: 800;
 }
@@ -20,7 +18,10 @@ form{
   border: 2px solid black;
   border-radius: 18px;
   font-size: 20px;
+  width: 625px;
+  height: 950px;
 }
+
 
 img{
   transform: scale(1);
@@ -38,6 +39,7 @@ label{
   font-weight: bold;
 }
 
+
   input[type="text"],
   input[type="email"],
   input[type="date"],
@@ -52,8 +54,7 @@ label{
  }
 
  input[type="radio"]{
-  margin-right: 5px;
-  padding: 20px;
+  padding: 2px;
  }
 
       input[type="text"]:hover,
@@ -76,11 +77,13 @@ label{
     font-size: 15px;
     cursor: pointer;
     border-radius: 5px;
+    font-weight: bold;
   }
 
   button:hover{
     box-shadow: 5px 5px #cccccc;
     font-size: 18px;
+    font-weight: bold;
   }
 
 h1{
@@ -104,7 +107,7 @@ table{
 
 table th, td{
   border-spacing: 0;
-  border: 1px solid #070707;
+  border: 1px solid #5b3000;
   padding: 8px;
 }
   table th{
@@ -186,6 +189,18 @@ table th, td{
         transform: scale(1.2);
         transition: transform 1s ease;
     }
+    
+#paiform{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.radiostyle{
+  display: flex;
+  flex-direction: row;
+}
 
 .pai{
   display: flex;
@@ -196,6 +211,10 @@ table th, td{
   flex-direction: row;
   width:auto;
   height:auto;
+}
+
+.labelcont{
+  font-weight: normal;
 }
 
 
@@ -216,20 +235,19 @@ table th, td{
   text-align: center;
   padding: 10px;
   margin: 100px;
-  width:800px;
+  width:900px;
   height:auto;
 
 
   border-radius: 10px;
   background-color: #faf8f8;
-  box-shadow: 5px 5px #cccccc;
 }
 
 .container3{
   text-align: center;
   padding: 10px;
   margin: 100px;
-  width:1000px;
+  width:1400px;
   height:auto;
 
   font-size: 16px;
@@ -253,6 +271,13 @@ table th, td{
           margin: 10px;
           width: auto;
           height: auto;
+        }
+
+        .divgapcont3{
+          margin: 40px;
+          padding: 20px;
+          border: 1px solid rgb(184, 184, 184);
+          border-radius: 10px;
         }
 
   .comment{

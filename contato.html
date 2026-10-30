@@ -9,50 +9,55 @@
         <title>Knowledge Rate - contato</title>
 
     </head>
-    <body>
+    <body >
         
         <div id="menu">
              <a href="index.html">Inicio</a> | <a href="livros.html">Livros</a> | <a href="artigos.html">Artigos</a> | <a href="cursos.html">Cursos</a> | <a href="profissionais.html">Profissionais</a> | Contato
         </div>
 
-
+<div id="paiform">
 <form>
     <h1>Formulário de contato</h1>
     <p id="formtext">Contate nossa equipe para reformular, adicionar ou excluir uma avaliação de algum conteúdo (curso, artigo, livro ou profissional). Enviaremos um email pedindo mais informações.</p>
-    <label for="name">Nome</label>
+    <label for="name">Seu nome</label>
     <input id="name" name="name" type="text" placeholder="Digite um nome" 
     required minlength="5">
     <br>
 
-    <label for="email">E-mail</label>
+    <label for="email">E-mail de contato</label>
     <input id="email" type="email" placeholder="Digite um email" 
     required minlength="6">
     <br>
 
-    <label>Conteúdo (a ser tratado) </label>
 
-    
-    Livro
-    <input id="conteudo" name="conteudo" type="radio" value="livro">
-    <br>
+    <label>Conteúdo (a ser tratado)</label>
+
+    <div class="radiostyle">
+    <label for="contlivro" class="labelcont">Livro</label>
+    <input id="contlivro" name="conteudo" type="radio" value="livro">
+    </div><br>
    
-    Artigo
-    <input id="conteudo" name="conteudo" type="radio" value="artigo">
-    <br>
+    <div class="radiostyle">
+    <label for="contartigo" class="labelcont">Artigo</label>
+    <input id="contartigo" name="conteudo" type="radio" value="artigo">
+    </div><br>
     
-    Curso
-    <input id="conteudo" name="conteudo" type="radio" value="curso">
-    <br>
+    <div class="radiostyle">
+    <label for="contcurso" class="labelcont">Curso</label>
+    <input id="contcurso" name="conteudo" type="radio" value="curso">
+    </div><br>
 
-    Profissional
-    <input id="conteudo" name="conteudo" type="radio" value="profissional">
-    <br>
+    <div class="radiostyle">
+    <label for="contprofissional" class="labelcont">Profissional</label>
+    <input id="contprofissional" name="conteudo" type="radio" value="profissional">
+    </div><br>
+    
 
-    <label>Data</label>
-    <input id="avaliacao" type="date">
+    <label for="data">Data</label>
+    <input id="data" type="date">
 
-    <label>Mensagem (o motivo do contato)</label>
-    <textarea></textarea>
+    <label for="mensagem">Mensagem (o motivo do contato)</label>
+    <textarea id="mensagem"></textarea>
 
     <button>Enviar</button>
 
